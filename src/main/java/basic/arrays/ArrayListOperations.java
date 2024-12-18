@@ -110,5 +110,15 @@ public class ArrayListOperations {
         System.out.println("Method 1 (list1 vs list2): " + l1.equals(l2));  // true
         System.out.println("Method 1 (list1 vs list3): " + l1.equals(l3));
 
+        // how to convert the arraylist to the array using stream.
+
+        ArrayList<Integer> newArrayList = new ArrayList<>();
+        newArrayList.add(2);
+        newArrayList.add(3);
+        newArrayList.add(5);
+
+        int [] convertedArray = newArrayList.stream().mapToInt(i->i).toArray();
+
+        System.out.println(Arrays.toString(convertedArray));
     }
 }
