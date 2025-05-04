@@ -1,4 +1,4 @@
-package src.main.java.basic.slidingwindow;
+package src.main.java.basic.slidingwindow.fixedwindow;
 import  java.util.*;
 
 public class FirstNegativeInWindow {
