@@ -50,7 +50,7 @@ public class BSTFromPreorder {
         int[] preorder = {8, 5, 1, 7, 10, 12};
         Node root = constructBST(preorder);
 
-        System.out.println("Inorder traversal of the constructed BST:");
+        System.out.println("InOrderTraversal traversal of the constructed BST:");
         printInorder(root);
     }
 }

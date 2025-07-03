@@ -20,7 +20,7 @@ public class BFSTraversal {
            System.out.println(curr);
 
            for(int i=0; i< m ;i++){
-               if(graph[curr][i] ==1 && visited[i]==0){
+               if(graph[curr][i] == 1 && visited[i]==0){
                    visited[i]= 1;
                    bfs.offer(i);
                }
